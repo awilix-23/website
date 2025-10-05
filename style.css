@@ -1,0 +1,70 @@
+body {
+  font-family: monospace;
+  background: #1E1E2E;
+  padding: 0 25px;
+  color: #CDD6F4;
+  display: grid;
+  grid-template-columns: 20% 80%;
+}
+
+.container {
+  padding: 10px;
+  margin: 10px;
+  background: #313244;
+  border: 2px solid #B4BEFE;
+  border-radius: 10px;
+}
+
+.title {
+  background-image:
+    linear-gradient(
+      rgba(0,0,0,0.7),
+      rgba(0,0,0,0.7)
+    ),
+    url("figures/awilix.png");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: #F5E0DC;
+}
+
+.prompt {
+  display: flex;
+  gap: 5px;
+}
+
+input[type="text"] {
+  background: #313244;
+  border: none;
+  outline: none;
+  caret-color: #a6e3a1;
+}
+
+h2, h3 {
+  border-bottom: 1px solid #6C7086;
+  padding-bottom: 10px;
+}
+
+h3 {
+  border-top: 1px solid #6C7086;
+  padding-top: 10px;
+}
+
+ul.no-bullets {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: #89B4FA;
+}
+
+a:hover,
+a:active {
+  color: #FAB387;
+}
+
+a:visited {
+  color: #B4BEFE;
+}
