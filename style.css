@@ -2,11 +2,12 @@ body {
   font-family: monospace;
   background: #1E1E2E;
   padding: 0 25px;
+  height: 95vh;
   color: #CDD6F4;
   display: grid;
-  grid-template-columns: 20% 80%;
+  grid-template-columns: 20% 60% 20%;
 }
-
+/******************************************************************************/
 .container {
   padding: 10px;
   margin: 10px;
@@ -33,8 +34,16 @@ body {
   gap: 5px;
 }
 
+.blinkies {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
 input[type="text"] {
   background: #313244;
+  color: #CDD6F4;
   border: none;
   outline: none;
   caret-color: #a6e3a1;
@@ -49,7 +58,7 @@ h3 {
   border-top: 1px solid #6C7086;
   padding-top: 10px;
 }
-
+/******************************************************************************/
 ul.no-bullets {
   list-style-type: none;
   padding: 0;
