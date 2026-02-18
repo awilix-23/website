@@ -5,7 +5,7 @@ body {
   height: 95vh;
   color: #CDD6F4;
   display: grid;
-  grid-template-columns: 20% 60% 20%;
+  grid-template-columns: 20% 80%;
 }
 /******************************************************************************/
 .container {
@@ -14,6 +14,11 @@ body {
   background: #313244;
   border: 2px solid #B4BEFE;
   border-radius: 10px;
+}
+
+.term {
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 
 .title {
@@ -46,7 +51,7 @@ input[type="text"] {
   color: #CDD6F4;
   border: none;
   outline: none;
-  caret-color: #a6e3a1;
+  caret-color: #F5E0DC;
 }
 
 h2, h3 {
@@ -76,4 +81,11 @@ a:active {
 
 a:visited {
   color: #B4BEFE;
+}
+/******************************************************************************/
+.term {
+  scollbar-width: thin
+}
+.term::webkit-scollbar {
+  width: 8px;
 }

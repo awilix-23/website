@@ -1,6 +1,7 @@
 export function ls(args, PWD) {
   const heirarchy = {
-    "test.txt": null,
+    "dft.md": null,
+    "cats.md": null,
   };
 
   const files = Object.entries(heirarchy).map(([name, value]) => {

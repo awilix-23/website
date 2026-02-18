@@ -43,10 +43,11 @@ function createPrompt()
   container.className = "prompt";
 
   const P1 = document.createElement("p");
-  P1.textContent = "[root@awilix.neocities.org] % ";
+  P1.style.color = "#F38BA8";
+  P1.textContent = "[root@/bin/ash]# ";
 
   const input = document.createElement("input");
-  input.type = "text"
+  input.type = "text";
   input.autofocus = true;
 
   input.addEventListener("keydown", async (e) => {
